@@ -1,1 +1,1 @@
-"# vue-jsx-lint-demo" 
+# vue-jsx-lint-demo
