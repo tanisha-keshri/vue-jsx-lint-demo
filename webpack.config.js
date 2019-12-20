@@ -11,8 +11,10 @@ module.exports = {
         filename: 'build.js',
     },
     resolve: {
-        // Add `.ts` and `.tsx` as a resolvable extension.
-        extensions: ['.ts', '.tsx', '.js', '.json'],
+        extensions: ['.ts', '.js', '.vue', '.json'],
+        alias: {
+            vue$: 'vue/dist/vue.esm.js',
+        },
     },
     module: {
         rules: [
