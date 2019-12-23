@@ -3,8 +3,8 @@ module.exports = {
       "plugin:@typescript-eslint/recommended",
       "prettier/@typescript-eslint",
       "plugin:prettier/recommended",
-      require.resolve('eslint-plugin-vue/lib/configs/recommended'),
-      "prettier/vue"
+      "plugin:vue/essential",
+      "plugin:prettier/recommended",
     ],overrides: [
       {
         files: ['*.js', '*.jsx'],
@@ -12,7 +12,7 @@ module.exports = {
           ecmaFeatures: {
             "jsx": true
         },
-          parser: require.resolve('babel-eslint'),
+          parser: require.resolve('babel-eslint'), 
         },
       },
     ],
